@@ -32,11 +32,8 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-            "type": "path",
-            "url": "../../sc_profile",
-            "options": {
-                "symlink": true
-            }
+            "type": "vcs",
+            "url": "git@github.com:achoura/sc_profile.git"
         }
     ],
     "scripts": {
