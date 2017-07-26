@@ -24,7 +24,12 @@
         "composer/installers": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
-        "achoura/sc-profile": "dev-master"
+        "achoura/sc-profile": "dev-master",
+        "malsup/cycle": "3.0.3-a",
+        "woocommerce/FlexSlider": "2.6.3",
+        "briancherne/jquery-hoverIntent": "dev-master",
+        "douglascrockford/JSON-js":"dev-master",
+        "mehrpadin/Superfish-for-Drupal":"2.0"
     },
     "repositories": [
         {
@@ -34,6 +39,86 @@
         {
             "type": "vcs",
             "url": "git@github.com:achoura/sc_profile.git"
+        },
+        {
+          "type": "package",
+          "package": {
+            "name": "malsup/cycle",
+            "version": "3.0.3-a",
+            "type": "drupal-library",
+            "dist": {
+              "url": "https://github.com/malsup/cycle/archive/master.zip",
+              "type": "zip"
+            },
+            "source": {
+              "url": "git@github.com:malsup/cycle.git",
+              "type": "git"
+            }
+          }
+        },
+        {
+          "type": "package",
+          "package": {
+            "name": "briancherne/jquery-hoverIntent",
+            "version": "dev-master",
+            "type": "drupal-library",
+            "dist": {
+              "url": "https://github.com/briancherne/jquery-hoverIntent/archive/master.zip",
+              "type": "zip"
+            },
+            "source": {
+              "url": "git@github.com:briancherne/jquery-hoverIntent.git",
+              "type": "git"
+            }
+          }
+        },
+        {
+          "type": "package",
+          "package": {
+            "name": "woocommerce/FlexSlider",
+            "version": "2.6.3",
+            "type": "drupal-library",
+            "dist": {
+              "url": "https://github.com/woocommerce/FlexSlider/archive/master.zip",
+              "type": "zip"
+            },
+            "source": {
+              "url": "git@github.com:woocommerce/FlexSlider.git",
+              "type": "git"
+            }
+          }
+        },
+        {
+          "type": "package",
+          "package": {
+            "name": "douglascrockford/JSON-js",
+            "version": "dev-master",
+            "type": "drupal-library",
+            "dist": {
+              "url": "https://github.com/douglascrockford/JSON-js/archive/master.zip",
+              "type": "zip"
+            },
+            "source": {
+              "url": "git@github.com:douglascrockford/JSON-js.git",
+              "type": "git"
+            }
+          }
+        },
+        {
+          "type": "package",
+          "package": {
+            "name": "mehrpadin/Superfish-for-Drupal",
+            "version": "2.0",
+            "type": "drupal-library",
+            "dist": {
+              "url": "https://github.com/mehrpadin/Superfish-for-Drupal/archive/2.0.zip",
+              "type": "zip"
+            },
+            "source": {
+              "url": "git@github.com:mehrpadin/Superfish-for-Drupal.git",
+              "type": "git"
+            }
+          }
         }
     ],
     "scripts": {
