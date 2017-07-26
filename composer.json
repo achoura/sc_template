@@ -49,10 +49,6 @@
             "dist": {
               "url": "https://github.com/malsup/cycle/archive/master.zip",
               "type": "zip"
-            },
-            "source": {
-              "url": "git@github.com:malsup/cycle.git",
-              "type": "git"
             }
           }
         },
@@ -65,10 +61,6 @@
             "dist": {
               "url": "https://github.com/briancherne/jquery-hoverIntent/archive/master.zip",
               "type": "zip"
-            },
-            "source": {
-              "url": "git@github.com:briancherne/jquery-hoverIntent.git",
-              "type": "git"
             }
           }
         },
@@ -81,10 +73,6 @@
             "dist": {
               "url": "https://github.com/woocommerce/FlexSlider/archive/master.zip",
               "type": "zip"
-            },
-            "source": {
-              "url": "git@github.com:woocommerce/FlexSlider.git",
-              "type": "git"
             }
           }
         },
@@ -97,10 +85,6 @@
             "dist": {
               "url": "https://github.com/douglascrockford/JSON-js/archive/master.zip",
               "type": "zip"
-            },
-            "source": {
-              "url": "git@github.com:douglascrockford/JSON-js.git",
-              "type": "git"
             }
           }
         },
@@ -113,10 +97,6 @@
             "dist": {
               "url": "https://github.com/mehrpadin/Superfish-for-Drupal/archive/2.0.zip",
               "type": "zip"
-            },
-            "source": {
-              "url": "git@github.com:mehrpadin/Superfish-for-Drupal.git",
-              "type": "git"
             }
           }
         }
